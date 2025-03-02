@@ -9,3 +9,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .list-group-item:hover .btn-danger {
+    opacity: 1;
+  }
+  
+  .btn-danger {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .list-group-item:hover .btn-danger {
+    opacity: 1;
+  }
